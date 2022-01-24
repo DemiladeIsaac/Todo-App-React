@@ -1,0 +1,51 @@
+.form {
+  padding: 1rem;
+}
+
+.card {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 1rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+input {
+  display: block;
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.actBtn {
+  font: inherit;
+  cursor: pointer;
+  background-color: #77002e;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #77002e;
+  border-radius: 4px;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.actBtn:hover {
+  background-color: #9c1458;
+  border-color: #9c1458;
+}
+
+.actions {
+  text-align: center;
+}
+
+input:focus {
+  color: #ff0000;
+}
